@@ -7,7 +7,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pytorch-scatter=2.0.7
+  - pytorch-scatter
   - torchaudio=0.9.1=py38
   - torchvision=0.10.1=py38_cu111
   - open3d
@@ -15,7 +15,7 @@ dependencies:
   - cudatoolkit=11.1
   - tensorboard
   - scipy
-  - opencv=4.5.3
+  - opencv
   - tqdm
   - suitesparse
   - matplotlib
