@@ -8,11 +8,7 @@ channels:
   - defaults
 dependencies:
   - python=3.8.12
-  - pytorch-scatter
-  - torchaudio=0.9.1=py38
-  - torchvision=0.10.1=py38_cu111
   - open3d
-  - pytorch=1.9.1=py3.8_cuda11.1_cudnn8.0.5_0
   - cudatoolkit=11.1
   - tensorboard
   - scipy
