@@ -1,8 +1,8 @@
-torch-scatter
+torch==1.9.1+cu111
 torchaudio==0.9.1
 torchvision==0.10.1+cu111
 open3d
-torch==1.9.1+cu111
+torch-scatter
 tensorboard
 scipy
 opencv-python
