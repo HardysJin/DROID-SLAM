@@ -7,6 +7,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.8.12
   - pytorch-scatter
   - torchaudio=0.9.1=py38
   - torchvision=0.10.1=py38_cu111
