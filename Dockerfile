@@ -41,3 +41,5 @@ RUN gdown https://drive.google.com/u/0/uc\?id\=1PpqVt1H4maBa_GbPJp4NwxRsd9jk-elh
 
 # Compile
 RUN python3 setup.py install
+
+ENV PYTHONPATH=/root/DROID-SLAM/dist/droid_backends-0.0.0-py3.8-linux-x86_64.egg:/root/DROID-SLAM/dist/lietorch-0.2-py3.8-linux-x86_64.egg
